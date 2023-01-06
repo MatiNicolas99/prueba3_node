@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 
-class Post {
+class Server {
 
     constructor () {
         this.app = express();
@@ -29,4 +29,4 @@ class Post {
     };
 };
 // 
-module.exports = Post;
+module.exports = Server;
